@@ -1,4 +1,8 @@
-import sys
+#
+# Example of the Built-in Functions
+#
 
-for i in range(0,11):
-    print(id(i))
+# Prints from 0 to 100 and its binary form.
+for i in range(0, 101):
+    x = str(bin(i))
+    print(i,x[2:])
